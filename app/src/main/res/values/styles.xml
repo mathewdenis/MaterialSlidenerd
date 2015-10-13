@@ -10,6 +10,6 @@
 
     <style name="CustomToolBarTheme" parent="ThemeOverlay.AppCompat.Light">
         <item name="android:textColorPrimary">@color/primary_light</item>
-        <item name="android:textColorSecondary">@color/primary_text</item>
+        <item name="android:textColorSecondary">#f2f2f2</item>
     </style>
 </resources>
