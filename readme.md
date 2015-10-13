@@ -9,4 +9,8 @@
 8. Toolbar Custom Theme
 9. Toolbar Menu Buttons
 10. Arrow on the toolbar using setDisplayHomeAsUpEnabled(true) 
-11. 
+
+------Material Navigation Drawer-----
+
+1. Drawer layout in activity_main.xml
+2. 
