@@ -15,4 +15,5 @@
 1. Drawer layout in activity_main.xml
 2. Add Drawer Fragment in the activity_main.xml 
 3. Basic Setup
-4. 
+4. ActionBarDrawerToggle and DrawerLayout
+5. 
