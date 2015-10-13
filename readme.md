@@ -8,4 +8,5 @@
 7. Toolbar and ToolBar ActionOverflow theme
 8. Toolbar Custom Theme
 9. Toolbar Menu Buttons
-10. 
+10. Arrow on the toolbar using setDisplayHomeAsUpEnabled(true) 
+11. 
