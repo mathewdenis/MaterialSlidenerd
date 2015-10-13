@@ -17,5 +17,6 @@
 3. Basic Setup
 4. ActionBarDrawerToggle and DrawerLayout ..drawer_fragment_shown..
 5. setDisplayShowHomeEnabled(true) ...drawer_fragment_shown..
-6. Save in Preferences
-7. 
+6. Show the drawer if the app is open for the first time
+7. InvalidateOptionMenu 
+8.  
