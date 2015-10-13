@@ -2,3 +2,5 @@
 1. Android Compatibility
 2. Android Compatibility from Slidenerd
 3. Color Palette
+4. Color Accent and Theme.AppCompat.Light.DarkActionbar
+
