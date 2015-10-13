@@ -3,4 +3,5 @@
 2. Android Compatibility from Slidenerd
 3. Color Palette
 4. Color Accent and Theme.AppCompat.Light.DarkActionbar
-
+5. Toolbar Initialize
+6.
