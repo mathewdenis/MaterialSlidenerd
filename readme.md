@@ -4,4 +4,4 @@
 3. Color Palette
 4. Color Accent and Theme.AppCompat.Light.DarkActionbar
 5. Toolbar Initialize
-6.
+6. Change Title Color using Theme
