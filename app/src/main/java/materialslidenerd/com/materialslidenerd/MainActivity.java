@@ -22,7 +22,7 @@ public class MainActivity extends ActionBarActivity {
 
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         navigationDrawerFragment = (NavigationDrawerFragment) getSupportFragmentManager().findFragmentById(R.id.nav_drawer_fragment);
-        navigationDrawerFragment.setup((DrawerLayout)findViewById(R.id.drawerLayout) , toolbar);
+        navigationDrawerFragment.setup(R.id.nav_drawer_fragment , (DrawerLayout)findViewById(R.id.drawerLayout) , toolbar);
     }
 
     @Override

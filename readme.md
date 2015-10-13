@@ -19,4 +19,5 @@
 5. setDisplayShowHomeEnabled(true) ...drawer_fragment_shown..
 6. Show the drawer if the app is open for the first time
 7. InvalidateOptionMenu 
-8.  
+8. Drawer is shown for the first time
+9.  
