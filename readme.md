@@ -17,4 +17,5 @@
 3. Basic Setup
 4. ActionBarDrawerToggle and DrawerLayout ..drawer_fragment_shown..
 5. setDisplayShowHomeEnabled(true) ...drawer_fragment_shown..
-6.
+6. Save in Preferences
+7. 
