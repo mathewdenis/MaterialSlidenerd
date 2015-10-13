@@ -15,5 +15,6 @@
 1. Drawer layout in activity_main.xml
 2. Add Drawer Fragment in the activity_main.xml 
 3. Basic Setup
-4. ActionBarDrawerToggle and DrawerLayout
-5. 
+4. ActionBarDrawerToggle and DrawerLayout ..drawer_fragment_shown..
+5. setDisplayShowHomeEnabled(true) ...drawer_fragment_shown..
+6.
