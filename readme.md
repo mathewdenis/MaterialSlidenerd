@@ -44,7 +44,8 @@
 8. getItemCount() 
 9. Get Data Collection
 10. Display RecyclerView
-11. 
+11. Material UI makeup
+12. 
 
 
 
