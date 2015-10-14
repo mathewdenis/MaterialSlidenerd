@@ -45,7 +45,11 @@
 9. Get Data Collection
 10. Display RecyclerView
 11. Material UI makeup
-12. 
+
+ ----- RecyclerView makeup---- 
+
+ 1. MoreRows using only Four items
+ 2. 
 
 
 

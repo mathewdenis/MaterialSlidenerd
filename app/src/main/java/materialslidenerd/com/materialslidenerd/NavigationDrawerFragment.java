@@ -63,10 +63,10 @@ public class NavigationDrawerFragment extends Fragment {
         int[] icons = {R.drawable.icon_about , R.drawable.icon_about , R.drawable.icon_about , R.drawable.icon_about};
         String[] title = {"Prakash" , "Beepen" , "Deepen" , "Arun"};
 
-        for(int i = 0 ; i < icons.length && i < title.length ; i++){
+        for(int i = 0 ; i < 100 ; i++){
             Model singleRowData = new Model();
-            singleRowData.title = title[i];
-            singleRowData.iconId = icons[i];
+            singleRowData.title = title[i%title.length];
+            singleRowData.iconId = icons[i%icons.length];
             data.add(singleRowData);
         }
         return data;
