@@ -26,7 +26,8 @@
 
 1. Transulant Status Bar Initialize
 2. Add NavDrawer Image
-3. 
+3. Navigation Drawer including Status Bar
+4. 
 
 
 
