@@ -39,7 +39,8 @@
 3. RecyclerView initialization 
 4. Make Model ,CustomAdapter and ViewHolder 
 5. Adding single_row.xml layout
-6.  
+6. Layout Inflation using LayoutInflater
+7.  
 
 
 
