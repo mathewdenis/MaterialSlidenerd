@@ -36,7 +36,8 @@
 
 1. Switched to new Branch RecyclerView
 2. Adding RecyclerView Dependencies
-3. 
+3. RecyclerView initialization 
+4. 
 
 
 
