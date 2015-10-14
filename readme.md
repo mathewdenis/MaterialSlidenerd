@@ -49,7 +49,9 @@
  ----- RecyclerView makeup---- 
 
  1. MoreRows using only Four items
- 2. 
+ 2. RecyclerView OnItemClickListener() 
+ 3. 
+
 
 
 
