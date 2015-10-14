@@ -6,6 +6,7 @@
     android:background="#6d87e9">
 
     <ImageView
+        android:layout_marginTop="@dimen/nav_margin_top"
         android:src="@drawable/nav_img"
         android:layout_width="280dp"
         android:layout_height="140dp"/>
