@@ -8,16 +8,25 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.Collections;
+import java.util.List;
+
 import materialslidenerd.com.materialslidenerd.R;
+import materialslidenerd.com.materialslidenerd.model.Model;
 
 /**
  * Created by Dell on 10/14/2015.
  */
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
+
     private LayoutInflater inflater;
-    public MyAdapter(Context context){
+    List<Model> data = Collections.emptyList();
+
+    public MyAdapter(Context context , List<Model> data){
         inflater = LayoutInflater.from(context);
+        this.data = data;
     }
+
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
         View view = inflater.inflate(R.layout.single_row , viewGroup , false);
@@ -27,6 +36,9 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     @Override
     public void onBindViewHolder(MyViewHolder viewHolder, int i) {
+        Model currentData = data.get(i);
+        viewHolder.title.setText(currentData.title);
+        viewHolder.icon.setImageResource(currentData.iconId);
 
     }
 
