@@ -37,7 +37,8 @@
 1. Switched to new Branch RecyclerView
 2. Adding RecyclerView Dependencies
 3. RecyclerView initialization 
-4. 
+4. Make Model ,CustomAdapter and ViewHolder 
+5.  
 
 
 
