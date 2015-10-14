@@ -38,7 +38,8 @@
 2. Adding RecyclerView Dependencies
 3. RecyclerView initialization 
 4. Make Model ,CustomAdapter and ViewHolder 
-5.  
+5. Adding single_row.xml layout
+6.  
 
 
 
