@@ -28,6 +28,11 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         this.data = data;
     }
 
+    public void delete(int position){
+        data.remove(position);
+        notifyItemRemoved(position);
+    }
+
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
         View view = inflater.inflate(R.layout.single_row , viewGroup , false);
@@ -62,7 +67,8 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
         @Override
         public void onClick(View view) {
-            Toast.makeText(view.getContext() , "Click at "+ getPosition() , Toast.LENGTH_LONG).show();
+            Toast.makeText(view.getContext() , "Item Removed from position: "+ getPosition() , Toast.LENGTH_LONG).show();
+            delete(getPosition());
         }
     }
 }
