@@ -42,7 +42,8 @@
 6. Layout Inflation using LayoutInflater / onCreateViewHolder()
 7. onBindViewHolder() 
 8. getItemCount() 
-9.  
+9. Get Data Collection
+
 
 
 
