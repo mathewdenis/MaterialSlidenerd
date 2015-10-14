@@ -32,6 +32,10 @@
 6. Colored Translucent Status Bar for lollipop
 7. Drawer Makeup
 
+-----RecyclerView-------
+
+1. Switched to new Branch RecyclerView
+2. 
 
 
 
