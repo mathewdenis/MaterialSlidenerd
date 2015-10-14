@@ -21,4 +21,17 @@
 7. InvalidateOptionMenu 
 8. Drawer is shown for the first time
 9. syncState() method for navigation icon
-10.  
+10. Transulant Status Bar Initialize
+
+
+
+
+
+
+
+
+
+
+
+
+
