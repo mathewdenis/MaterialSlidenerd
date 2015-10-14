@@ -28,7 +28,8 @@
 2. Add NavDrawer Image
 3. Navigation Drawer including Status Bar
 4. Image Margin for different layouts 
-
+5. Kitkat Translucent Status Bar
+6. 
 
 
 
