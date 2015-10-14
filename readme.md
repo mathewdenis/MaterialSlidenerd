@@ -30,7 +30,8 @@
 4. Image Margin for different layouts 
 5. Kitkat Translucent Status Bar
 6. Colored Translucent Status Bar for lollipop
-7. 
+7. Drawer Makeup
+
 
 
 

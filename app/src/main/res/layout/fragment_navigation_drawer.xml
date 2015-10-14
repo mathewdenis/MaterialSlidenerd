@@ -3,12 +3,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="materialslidenerd.com.materialslidenerd.NavigationDrawerFragment"
-    android:background="#6d87e9">
+    android:background="#f2f2f2">
 
-    <ImageView
-        android:layout_marginTop="@dimen/nav_margin_top"
-        android:src="@drawable/nav_img"
-        android:layout_width="280dp"
-        android:layout_height="140dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/primary_dark">
+
+        <ImageView
+            android:layout_marginTop="@dimen/drawer_margin_top"
+            android:src="@drawable/nav_img"
+            android:layout_width="280dp"
+            android:layout_height="140dp"
+            android:layout_marginBottom="16dp"/>
+
+    </LinearLayout>
 
 </FrameLayout>
