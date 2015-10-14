@@ -21,8 +21,12 @@
 7. InvalidateOptionMenu 
 8. Drawer is shown for the first time
 9. syncState() method for navigation icon
-10. Transulant Status Bar Initialize
 
+-----Navigation Drawer Makeup----
+
+1. Transulant Status Bar Initialize
+2. Add NavDrawer Image
+3. 
 
 
 
