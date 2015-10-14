@@ -48,7 +48,11 @@ public class NavigationDrawerFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View layout = inflater.inflate(R.layout.fragment_navigation_drawer, container, false);
+
         recyclerView = (RecyclerView) layout.findViewById(R.id.recycler_view);
+        adapter = new MyAdapter(getActivity() , getData());
+        recyclerView.setAdapter(adapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 
         return layout;
 
