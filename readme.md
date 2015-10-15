@@ -10,7 +10,7 @@
 9. Toolbar Menu Buttons
 10. Arrow on the toolbar using setDisplayHomeAsUpEnabled(true) 
 
-------Material Navigation Drawer-----
+------Material Navigation Drawer BRANCH-----
 
 1. Drawer layout in activity_main.xml
 2. Add Drawer Fragment in the activity_main.xml 
@@ -32,7 +32,7 @@
 6. Colored Translucent Status Bar for lollipop
 7. Drawer Makeup
 
------RecyclerView-------
+-----RecyclerView BRANCH-------
 
 1. Switched to new Branch RecyclerView
 2. Adding RecyclerView Dependencies
@@ -54,6 +54,9 @@
  4. Ripple Effect onItemClick
  5. MakeUp
  6. RecyclerView OnClick and OnItemTouch is REMAINING n will be complete in next session.
+
+-----MaterialTabs BRANCH----
+
 
 
 
