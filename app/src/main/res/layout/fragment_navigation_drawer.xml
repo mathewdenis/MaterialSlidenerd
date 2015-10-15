@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="materialslidenerd.com.materialslidenerd.NavigationDrawerFragment"
-    android:background="#666">
+    android:background="#999">
 
     <LinearLayout
         android:id="@+id/nav_drawer_img"

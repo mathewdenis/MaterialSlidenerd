@@ -52,7 +52,8 @@
  2. RecyclerView OnItemClickListener() 
  3. RemoveItem fro the recycler view
  4. Ripple Effect onItemClick
- 5. 
+ 5. MakeUp
+ 6. RecyclerView OnClick and OnItemTouch is REMAINING n will be complete in next session.
 
 
 
