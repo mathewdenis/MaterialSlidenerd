@@ -51,7 +51,8 @@
  1. MoreRows using only Four items
  2. RecyclerView OnItemClickListener() 
  3. RemoveItem fro the recycler view
- 4. 
+ 4. Ripple Effect onItemClick
+ 5. 
 
 
 
