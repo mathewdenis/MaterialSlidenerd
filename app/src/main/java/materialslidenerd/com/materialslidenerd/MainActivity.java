@@ -9,6 +9,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import materialslidenerd.com.materialslidenerd.adapter.MyPagerApdater;
 import materialslidenerd.com.materialslidenerd.tabs.SlidingTabLayout;
 
 public class MainActivity extends ActionBarActivity {
@@ -33,6 +34,9 @@ public class MainActivity extends ActionBarActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         navigationDrawerFragment = (NavigationDrawerFragment) getSupportFragmentManager().findFragmentById(R.id.nav_drawer_fragment);
         navigationDrawerFragment.setup(R.id.nav_drawer_fragment , (DrawerLayout)findViewById(R.id.drawerLayout) , toolbar);
+
+        mPager.setAdapter(new MyPagerApdater(getSupportFragmentManager() , this));
+        mTabs.setViewPager(mPager);
     }
 
     @Override

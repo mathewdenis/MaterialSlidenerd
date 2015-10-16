@@ -62,7 +62,8 @@
 3. initilizing MyPagerAdapter and Fragments
 4. Args from Fragment to PagerAdapter
 5. Set Tabs Title
-6. 
+6. Tabs with text title finish 
+7. 
 
 
 
