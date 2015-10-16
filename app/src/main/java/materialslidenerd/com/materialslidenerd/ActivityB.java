@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import it.neokree.materialtabs.MaterialTab;
 import it.neokree.materialtabs.MaterialTabHost;
 import it.neokree.materialtabs.MaterialTabListener;
+import materialslidenerd.com.materialslidenerd.adapter.MyPagerAdapterB;
 
 public class ActivityB extends ActionBarActivity implements MaterialTabListener{
 
@@ -28,9 +29,10 @@ public class ActivityB extends ActionBarActivity implements MaterialTabListener{
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         materialTabHost = (MaterialTabHost) findViewById(R.id.materialTabHost);
-        toolbar = (Toolbar) findViewById(R.id.viewpager);
+        viewPager = (ViewPager) findViewById(R.id.viewpager);
 
-
+        MyPagerAdapterB adapter = new MyPagerAdapterB(getSupportFragmentManager() , this);
+        viewPager.setAdapter(adapter);
     }
 
     @Override
