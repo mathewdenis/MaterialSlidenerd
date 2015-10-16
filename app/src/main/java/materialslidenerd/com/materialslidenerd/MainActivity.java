@@ -2,16 +2,23 @@ package materialslidenerd.com.materialslidenerd;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import materialslidenerd.com.materialslidenerd.tabs.SlidingTabLayout;
+
 public class MainActivity extends ActionBarActivity {
 
     private Toolbar toolbar;
     private NavigationDrawerFragment navigationDrawerFragment;
+
+    private ViewPager mPager;
+    private SlidingTabLayout mTabs;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,6 +26,9 @@ public class MainActivity extends ActionBarActivity {
 
         toolbar = (Toolbar) findViewById(R.id.app_toolbar);
         setSupportActionBar(toolbar);
+
+        mPager = (ViewPager) findViewById(R.id.viewpager);
+        mTabs = (SlidingTabLayout) findViewById(R.id.tabs);
 
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         navigationDrawerFragment = (NavigationDrawerFragment) getSupportFragmentManager().findFragmentById(R.id.nav_drawer_fragment);

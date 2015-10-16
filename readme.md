@@ -58,7 +58,8 @@
 -----MaterialTabs BRANCH----
 
 1. Add required files from git 
-2. 
+2. Xml Layout and Initilization
+3.  
 
 
 

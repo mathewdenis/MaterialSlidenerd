@@ -1,4 +1,4 @@
-package tabs;
+package materialslidenerd.com.materialslidenerd.tabs;
 
 /**
  * Created by Dell on 10/16/2015.
