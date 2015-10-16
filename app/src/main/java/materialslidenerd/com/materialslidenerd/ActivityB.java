@@ -40,6 +40,13 @@ public class ActivityB extends ActionBarActivity implements MaterialTabListener{
                 materialTabHost.setSelectedNavigationItem(position);
             }
         });
+
+        for(int i = 0 ; i < adapter.getCount() ; i++){
+            materialTabHost.addTab(
+                    materialTabHost.newTab()
+                    .setText(adapter.getPageTitle(i))
+                    .setTabListener(this));
+        }
     }
 
     @Override

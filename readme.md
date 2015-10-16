@@ -76,7 +76,8 @@
 3. Create ViewPagerAdapter
 4. setAdapter for viewPager
 5. SimpleOnPageChangeListener
-6. 
+6. Loop through the pages
+7. 
 
 
 
