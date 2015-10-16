@@ -2,13 +2,18 @@ package materialslidenerd.com.materialslidenerd;
 
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import it.neokree.materialtabs.MaterialTabHost;
+
 public class ActivityB extends ActionBarActivity {
 
+    private MaterialTabHost materialTabHost;
+    private ViewPager viewPager;
     private Toolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +24,11 @@ public class ActivityB extends ActionBarActivity {
 
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        materialTabHost = (MaterialTabHost) findViewById(R.id.materialTabHost);
+        toolbar = (Toolbar) findViewById(R.id.viewpager);
+
+
     }
 
     @Override
