@@ -61,7 +61,8 @@
 2. Xml Layout and Initilization
 3. initilizing MyPagerAdapter and Fragments
 4. Args from Fragment to PagerAdapter
-5. 
+5. Set Tabs Title
+6. 
 
 
 

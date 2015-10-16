@@ -1,9 +1,11 @@
 package materialslidenerd.com.materialslidenerd.adapter;
 
+import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+import materialslidenerd.com.materialslidenerd.R;
 import materialslidenerd.com.materialslidenerd.fragment.My_fragment;
 
 /**
@@ -11,8 +13,17 @@ import materialslidenerd.com.materialslidenerd.fragment.My_fragment;
  */
 public class MyPagerApdater extends FragmentPagerAdapter {
 
-    public MyPagerApdater(FragmentManager fm) {
+    String[] tabs;
+    Context context;
+
+    public MyPagerApdater(FragmentManager fm , Context context) {
         super(fm);
+        tabs = context.getResources().getStringArray(R.array.tabs);
+    }
+
+    @Override
+    public CharSequence getPageTitle(int position) {
+        return tabs[position];
     }
 
     @Override
