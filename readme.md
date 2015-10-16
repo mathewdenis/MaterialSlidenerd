@@ -75,7 +75,8 @@
 2. Implements MaterialTabListener 
 3. Create ViewPagerAdapter
 4. setAdapter for viewPager
-5. 
+5. SimpleOnPageChangeListener
+6. 
 
 
 
