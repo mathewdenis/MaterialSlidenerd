@@ -44,7 +44,7 @@ public class ActivityB extends ActionBarActivity implements MaterialTabListener{
         for(int i = 0 ; i < adapter.getCount() ; i++){
             materialTabHost.addTab(
                     materialTabHost.newTab()
-                    .setText(adapter.getPageTitle(i))
+                    .setIcon(adapter.getIcons(i))
                     .setTabListener(this));
         }
     }

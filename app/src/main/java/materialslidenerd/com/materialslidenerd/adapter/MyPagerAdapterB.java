@@ -1,6 +1,7 @@
 package materialslidenerd.com.materialslidenerd.adapter;
 
 import android.content.Context;
+import android.graphics.drawable.Drawable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
@@ -13,6 +14,8 @@ import materialslidenerd.com.materialslidenerd.fragment.My_fragment;
  */
 public class MyPagerAdapterB extends FragmentStatePagerAdapter {
 
+    int icons[] = {R.drawable.ic_action_email , R.drawable.ic_action_refresh , R.drawable.ic_action_settings ,
+            R.drawable.ic_action_email , R.drawable.ic_action_refresh , R.drawable.ic_action_settings };
     Context context;
     public MyPagerAdapterB(FragmentManager fm , Context context) {
         super(fm);
@@ -26,11 +29,15 @@ public class MyPagerAdapterB extends FragmentStatePagerAdapter {
 
     @Override
     public int getCount() {
-        return 3;
+        return 6;
     }
 
     @Override
     public CharSequence getPageTitle(int position) {
         return context.getResources().getStringArray(R.array.tabs)[position];
+    }
+
+    public Drawable getIcons(int position){
+        return context.getResources().getDrawable(icons[position]);
     }
 }
