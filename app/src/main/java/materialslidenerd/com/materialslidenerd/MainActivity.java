@@ -35,10 +35,16 @@ public class MainActivity extends ActionBarActivity {
         navigationDrawerFragment = (NavigationDrawerFragment) getSupportFragmentManager().findFragmentById(R.id.nav_drawer_fragment);
         navigationDrawerFragment.setup(R.id.nav_drawer_fragment , (DrawerLayout)findViewById(R.id.drawerLayout) , toolbar);
 
-        mPager.setAdapter(new MyPagerApdater(getSupportFragmentManager() , this));
+        mPager.setAdapter(new MyPagerApdater(getSupportFragmentManager(), this));
 
         mTabs.setDistributeEvenly(true);
-        mTabs.setCustomTabView(R.layout.custom_tab_view , R.id.tabText);
+        mTabs.setCustomTabView(R.layout.custom_tab_view, R.id.tabText);
+        mTabs.setCustomTabColorizer(new SlidingTabLayout.TabColorizer() {
+            @Override
+            public int getIndicatorColor(int position) {
+                return getResources().getColor(R.color.accent);
+            }
+        });
         mTabs.setViewPager(mPager);
     }
 

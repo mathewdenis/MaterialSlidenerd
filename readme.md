@@ -65,7 +65,8 @@
 6. Tabs with text title finish 
 7. Tabs with icon Start
 8. Tabs with icon DONE
-
+9. Tab Indicator Color
+10.  
 
 
 
