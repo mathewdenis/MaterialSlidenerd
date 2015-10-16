@@ -15,7 +15,9 @@ import materialslidenerd.com.materialslidenerd.fragment.My_fragment;
 public class MyPagerAdapterB extends FragmentStatePagerAdapter {
 
     int icons[] = {R.drawable.ic_action_email , R.drawable.ic_action_refresh , R.drawable.ic_action_settings ,
-            R.drawable.ic_action_email , R.drawable.ic_action_refresh , R.drawable.ic_action_settings };
+            R.drawable.ic_action_email , R.drawable.ic_action_refresh , R.drawable.ic_action_settings ,
+            R.drawable.ic_action_email , R.drawable.ic_action_refresh , R.drawable.ic_action_settings ,
+            R.drawable.icon_about};
     Context context;
     public MyPagerAdapterB(FragmentManager fm , Context context) {
         super(fm);
@@ -29,7 +31,7 @@ public class MyPagerAdapterB extends FragmentStatePagerAdapter {
 
     @Override
     public int getCount() {
-        return 6;
+        return 10;
     }
 
     @Override

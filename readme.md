@@ -78,7 +78,7 @@
 5. SimpleOnPageChangeListener
 6. Loop through the pages
 7. Adding icon on the tabs
-8. 
+ 
 
 
 
