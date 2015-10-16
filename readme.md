@@ -67,7 +67,8 @@
 8. Tabs with icon DONE
 9. Tab Indicator Color
 10. Ripple Effect but no indicator
-11. 
+11. TabView with BackgroundColor , Ripple and Indicator 
+
 
 
 
