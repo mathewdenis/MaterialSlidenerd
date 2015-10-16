@@ -8,9 +8,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import it.neokree.materialtabs.MaterialTab;
 import it.neokree.materialtabs.MaterialTabHost;
+import it.neokree.materialtabs.MaterialTabListener;
 
-public class ActivityB extends ActionBarActivity {
+public class ActivityB extends ActionBarActivity implements MaterialTabListener{
 
     private MaterialTabHost materialTabHost;
     private ViewPager viewPager;
@@ -53,5 +55,22 @@ public class ActivityB extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+
+
+    @Override
+    public void onTabSelected(MaterialTab materialTab) {
+
+    }
+
+    @Override
+    public void onTabReselected(MaterialTab materialTab) {
+
+    }
+
+    @Override
+    public void onTabUnselected(MaterialTab materialTab) {
+
     }
 }
