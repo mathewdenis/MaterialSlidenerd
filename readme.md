@@ -64,7 +64,8 @@
 5. Set Tabs Title
 6. Tabs with text title finish 
 7. Tabs with icon Start
-8. 
+8. Tabs with icon DONE
+
 
 
 

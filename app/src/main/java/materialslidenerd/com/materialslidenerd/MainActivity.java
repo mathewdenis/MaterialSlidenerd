@@ -36,6 +36,9 @@ public class MainActivity extends ActionBarActivity {
         navigationDrawerFragment.setup(R.id.nav_drawer_fragment , (DrawerLayout)findViewById(R.id.drawerLayout) , toolbar);
 
         mPager.setAdapter(new MyPagerApdater(getSupportFragmentManager() , this));
+
+        mTabs.setDistributeEvenly(true);
+        mTabs.setCustomTabView(R.layout.custom_tab_view , R.id.tabText);
         mTabs.setViewPager(mPager);
     }
 
