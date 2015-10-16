@@ -60,7 +60,8 @@
 1. Add required files from git 
 2. Xml Layout and Initilization
 3. initilizing MyPagerAdapter and Fragments
-4. 
+4. Args from Fragment to PagerAdapter
+5. 
 
 
 
